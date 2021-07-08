@@ -9,6 +9,8 @@ import UIKit
 //test1
 //test2
 //test3
+//브런치2에서 수정한거
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
