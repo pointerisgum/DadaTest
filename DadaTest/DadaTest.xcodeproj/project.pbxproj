@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18B04534269699820027CE76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B04533269699820027CE76 /* AppDelegate.swift */; };
+		18B04536269699820027CE76 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B04535269699820027CE76 /* SceneDelegate.swift */; };
+		18B04538269699820027CE76 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B04537269699820027CE76 /* ViewController.swift */; };
+		18B0453B269699820027CE76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B04539269699820027CE76 /* Main.storyboard */; };
+		18B0453D269699830027CE76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18B0453C269699830027CE76 /* Assets.xcassets */; };
+		18B04540269699830027CE76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B0453E269699830027CE76 /* LaunchScreen.storyboard */; };
+		18B0454B269699830027CE76 /* DadaTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B0454A269699830027CE76 /* DadaTestTests.swift */; };
+		18B04556269699830027CE76 /* DadaTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B04555269699830027CE76 /* DadaTestUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18B04547269699830027CE76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18B04528269699820027CE76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18B0452F269699820027CE76;
+			remoteInfo = DadaTest;
+		};
+		18B04552269699830027CE76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18B04528269699820027CE76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18B0452F269699820027CE76;
+			remoteInfo = DadaTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18B04530269699820027CE76 /* DadaTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DadaTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18B04533269699820027CE76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18B04535269699820027CE76 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		18B04537269699820027CE76 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18B0453A269699820027CE76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18B0453C269699830027CE76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18B0453F269699830027CE76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18B04541269699830027CE76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18B04546269699830027CE76 /* DadaTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DadaTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18B0454A269699830027CE76 /* DadaTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DadaTestTests.swift; sourceTree = "<group>"; };
+		18B0454C269699830027CE76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18B04551269699830027CE76 /* DadaTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DadaTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18B04555269699830027CE76 /* DadaTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DadaTestUITests.swift; sourceTree = "<group>"; };
+		18B04557269699830027CE76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18B0452D269699820027CE76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18B04543269699830027CE76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18B0454E269699830027CE76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18B04527269699820027CE76 = {
+			isa = PBXGroup;
+			children = (
+				18B04532269699820027CE76 /* DadaTest */,
+				18B04549269699830027CE76 /* DadaTestTests */,
+				18B04554269699830027CE76 /* DadaTestUITests */,
+				18B04531269699820027CE76 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18B04531269699820027CE76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18B04530269699820027CE76 /* DadaTest.app */,
+				18B04546269699830027CE76 /* DadaTestTests.xctest */,
+				18B04551269699830027CE76 /* DadaTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18B04532269699820027CE76 /* DadaTest */ = {
+			isa = PBXGroup;
+			children = (
+				18B04533269699820027CE76 /* AppDelegate.swift */,
+				18B04535269699820027CE76 /* SceneDelegate.swift */,
+				18B04537269699820027CE76 /* ViewController.swift */,
+				18B04539269699820027CE76 /* Main.storyboard */,
+				18B0453C269699830027CE76 /* Assets.xcassets */,
+				18B0453E269699830027CE76 /* LaunchScreen.storyboard */,
+				18B04541269699830027CE76 /* Info.plist */,
+			);
+			path = DadaTest;
+			sourceTree = "<group>";
+		};
+		18B04549269699830027CE76 /* DadaTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				18B0454A269699830027CE76 /* DadaTestTests.swift */,
+				18B0454C269699830027CE76 /* Info.plist */,
+			);
+			path = DadaTestTests;
+			sourceTree = "<group>";
+		};
+		18B04554269699830027CE76 /* DadaTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18B04555269699830027CE76 /* DadaTestUITests.swift */,
+				18B04557269699830027CE76 /* Info.plist */,
+			);
+			path = DadaTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18B0452F269699820027CE76 /* DadaTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18B0455A269699830027CE76 /* Build configuration list for PBXNativeTarget "DadaTest" */;
+			buildPhases = (
+				18B0452C269699820027CE76 /* Sources */,
+				18B0452D269699820027CE76 /* Frameworks */,
+				18B0452E269699820027CE76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DadaTest;
+			productName = DadaTest;
+			productReference = 18B04530269699820027CE76 /* DadaTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18B04545269699830027CE76 /* DadaTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18B0455D269699830027CE76 /* Build configuration list for PBXNativeTarget "DadaTestTests" */;
+			buildPhases = (
+				18B04542269699830027CE76 /* Sources */,
+				18B04543269699830027CE76 /* Frameworks */,
+				18B04544269699830027CE76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18B04548269699830027CE76 /* PBXTargetDependency */,
+			);
+			name = DadaTestTests;
+			productName = DadaTestTests;
+			productReference = 18B04546269699830027CE76 /* DadaTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18B04550269699830027CE76 /* DadaTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18B04560269699830027CE76 /* Build configuration list for PBXNativeTarget "DadaTestUITests" */;
+			buildPhases = (
+				18B0454D269699830027CE76 /* Sources */,
+				18B0454E269699830027CE76 /* Frameworks */,
+				18B0454F269699830027CE76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18B04553269699830027CE76 /* PBXTargetDependency */,
+			);
+			name = DadaTestUITests;
+			productName = DadaTestUITests;
+			productReference = 18B04551269699830027CE76 /* DadaTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18B04528269699820027CE76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					18B0452F269699820027CE76 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					18B04545269699830027CE76 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 18B0452F269699820027CE76;
+					};
+					18B04550269699830027CE76 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 18B0452F269699820027CE76;
+					};
+				};
+			};
+			buildConfigurationList = 18B0452B269699820027CE76 /* Build configuration list for PBXProject "DadaTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18B04527269699820027CE76;
+			productRefGroup = 18B04531269699820027CE76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18B0452F269699820027CE76 /* DadaTest */,
+				18B04545269699830027CE76 /* DadaTestTests */,
+				18B04550269699830027CE76 /* DadaTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18B0452E269699820027CE76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B04540269699830027CE76 /* LaunchScreen.storyboard in Resources */,
+				18B0453D269699830027CE76 /* Assets.xcassets in Resources */,
+				18B0453B269699820027CE76 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18B04544269699830027CE76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18B0454F269699830027CE76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18B0452C269699820027CE76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B04538269699820027CE76 /* ViewController.swift in Sources */,
+				18B04534269699820027CE76 /* AppDelegate.swift in Sources */,
+				18B04536269699820027CE76 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18B04542269699830027CE76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B0454B269699830027CE76 /* DadaTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18B0454D269699830027CE76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B04556269699830027CE76 /* DadaTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18B04548269699830027CE76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18B0452F269699820027CE76 /* DadaTest */;
+			targetProxy = 18B04547269699830027CE76 /* PBXContainerItemProxy */;
+		};
+		18B04553269699830027CE76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18B0452F269699820027CE76 /* DadaTest */;
+			targetProxy = 18B04552269699830027CE76 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18B04539269699820027CE76 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18B0453A269699820027CE76 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18B0453E269699830027CE76 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18B0453F269699830027CE76 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18B04558269699830027CE76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18B04559269699830027CE76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18B0455B269699830027CE76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BA655UHKCD;
+				INFOPLIST_FILE = DadaTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lullaapp.ios.DadaTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18B0455C269699830027CE76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BA655UHKCD;
+				INFOPLIST_FILE = DadaTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lullaapp.ios.DadaTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18B0455E269699830027CE76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BA655UHKCD;
+				INFOPLIST_FILE = DadaTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lullaapp.ios.DadaTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DadaTest.app/DadaTest";
+			};
+			name = Debug;
+		};
+		18B0455F269699830027CE76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BA655UHKCD;
+				INFOPLIST_FILE = DadaTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lullaapp.ios.DadaTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DadaTest.app/DadaTest";
+			};
+			name = Release;
+		};
+		18B04561269699830027CE76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BA655UHKCD;
+				INFOPLIST_FILE = DadaTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lullaapp.ios.DadaTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DadaTest;
+			};
+			name = Debug;
+		};
+		18B04562269699830027CE76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BA655UHKCD;
+				INFOPLIST_FILE = DadaTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lullaapp.ios.DadaTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DadaTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18B0452B269699820027CE76 /* Build configuration list for PBXProject "DadaTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18B04558269699830027CE76 /* Debug */,
+				18B04559269699830027CE76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18B0455A269699830027CE76 /* Build configuration list for PBXNativeTarget "DadaTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18B0455B269699830027CE76 /* Debug */,
+				18B0455C269699830027CE76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18B0455D269699830027CE76 /* Build configuration list for PBXNativeTarget "DadaTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18B0455E269699830027CE76 /* Debug */,
+				18B0455F269699830027CE76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18B04560269699830027CE76 /* Build configuration list for PBXNativeTarget "DadaTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18B04561269699830027CE76 /* Debug */,
+				18B04562269699830027CE76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18B04528269699820027CE76 /* Project object */;
+}
